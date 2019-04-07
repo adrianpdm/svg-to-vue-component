@@ -23,7 +23,8 @@ const plugin = () => tree => {
 }
 
 const createComponent = svg => {
-  return `<template>\n${svg}\n</template>`
+//   return `<template>\n${svg}\n</template>`
+  return `${svg}`
 }
 
 module.exports = (input, { sync } = {}) => {
